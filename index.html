@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Giày Bóng Đá</title>
     <link rel="StyleSheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/logo.png">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
@@ -12,31 +13,208 @@
 
 <body>
     <header>
-        <h1>MySite</h1>
-        <h3>Slogan go here...</h3>
+        <div class="banner">
+            <img src="./img/banner.jpg" alt="banner">
+        </div>
     </header>
     <nav>
         <ul>
-            <li><a data-section="home">Home</a></li>
-            <li><a data-section="services">Services</a></li>
+            <li><a data-section="home">Trang Chủ</a></li>
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Products</a>
+                <a href="javascript:void(0)" class="dropbtn">Sản Phẩm</a>
                 <div class="dropdown-content">
-                    <a data-section="link1">Link 1</a>
-                    <a data-section="link2">Link 2</a>
-                    <a data-section="link3">Link 3</a>
+                    <a data-section="link1">Giày Nike</a>
+                    <a data-section="link2">Giày Adidas</a>
+                    <a data-section="link3">Giày Puma</a>
                 </div>
             </li>
-            <li style="float:right"><a data-section="about">About us</a></li>
+            <li style="float:right"><input type="search" id="mySearch" placeholder="Tìm Giày Bạn Mong Muốn...."></li>
+            <li><a data-section="services">Hướng Dẫn Bảo Quản Giày</a></li>
         </ul>
     </nav>
 
     <section id="home" class="hideable-section">
-        <div>Home content</div>
+        <h3 style="text-align: center;">Giày Bóng Đá Nike</h3>
+        <hr>
+        <div class="flex-container">
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/nike1.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Nike</h5>
+                <p>800.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/nike2.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Nike</h5>
+                <p>900.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/nike3.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Nike</h5>
+                <p>950.000VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/nike4.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Nike</h5>
+                <p>800.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+        </div>
+        <h3 style="text-align: center;">Giày Bóng Đá Adidas</h3>
+        <hr>
+        <div class="flex-container">
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/adidas1.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Adidas</h5>
+                <p>750.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/adidas2.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Adidas</h5>
+                <p>800.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/adidas3.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Adidas</h5>
+                <p>900.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/adidas4.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Adidas</h5>
+                <p>700.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+        </div>
+        <h3 style="text-align: center;">Giày Bóng Đá Puma</h3>
+        <hr>
+        <div class="flex-container">
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/puma4.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Puma</h5>
+                <p>750.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/puma1.png" alt="">
+                </div>
+                <h5>Giày Bóng Đá Puma</h5>
+                <p>650.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/puma2.png" alt="">
+                </div>
+                <h5>Giày Bóng Đá Puma</h5>
+                <p>850.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/puma3.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Puma</h5>
+                <p>800.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            
+        </div>
     </section>
 
     <section id="services" class="hideable-section">
-        <div>Services content</div>
+        <div class="noidung">
+            <p style="margin: 10px 0;"> <em style="color: red;"> Ngoài việc lựa chọn một đôi giày phù hợp với Form chân để phát huy hết công dụng và hiệu quả, 
+                đem lại cảm giác tốt nhất khi chơi bóng, Độ bền của một đôi giày đá banh chính hãng 
+                còn phụ thuộc vào cách bảo quản và sử dụng chúng. 
+                Bài viết này sẽ giúp bạn giải đáp những thắc mắc đó. </em>
+            </p>
+            <p>
+                – Bảo Quản : Khi không sử dụng, Giày đá banh cần được bảo quản nơi khô thoáng, 
+                    tránh những nơi ẩm thấp hoặc ánh nắng trực tiếp,
+                    nên vệ sinh giày sạch sẽ, lấy miếng lót giày ra, phơi nơi khô thoáng. 
+            </p>
+            <div class="hd">
+                <img src="./img/hd1.jpg" alt="" >
+            </div>
+            <h4 style="color: red; margin: 15px 0;">LƯU Ý KHI VỆ SINH GIÀY ĐÁ BANH : </h4>
+            <p>– Để ra sân luôn đẹp, Đôi giày đá banh của bạn cần được vệ sinh thường xuyên.
+                Định kỳ vệ sinh giày để tránh vết bẩn quá lâu sẽ ố, khó ra, 
+                khi giày bẩn nên dùng vải sạch thấm nước xà bông lau nhẹ nhàng, 
+                không dùng bàn chải để chà mạnh, không sử dụng thuốc tẩy để giặt.
+                – vệ sinh bề mặt da bên ngoài, Tránh để nước thấm vào bên trong giày,
+                nếu giày bị thấm nước, nên nhét giấy hút ẩm vào trong giày để nước thấm vào trong giấy.
+                hoặc phơi giày nơi khô ráo ( phơi quạt  hoặc nắng nhẹ ),  
+                không phơi giày trước ánh nắng trực tiếp.
+            </p>
+            <div class="">
+                <img src="//file.hstatic.net/1000061481/file/red-black-white-puma-evospeed-2016-17-boot__6_.jpg" alt="" style="width: 699px;
+                height: 399px;margin: 20px 233px;">
+            </div>
+            <h5>– LƯU Ý :</h5> 
+            <p style="color: red;">Tuyệt đối không được ngâm giày trong nước,
+                 xà phòng sẽ làm ẩm da và keo ép của giày. Không được giặt giày bằng máy giặt,
+                 không đánh giày bằng các loại xi đánh giày da,…
+            </p>
+            <h4 style="color: red; margin: 15px 0;"> CÁC BƯỚC VỆ SINH GIÀY ĐÁ BANH CHÍNH HÃNG </h4>
+            <p>Giày đá banh chính hãng chỉ cần được vệ sinh bên ngoài, hạn chế để nước ngấm vào bên trong giày.
+                 Không Ngâm giặt giày trong nước, máy giặt tránh ảnh hưởng Form và chất lượng keo giày. 
+                 Khi đá bóng vào mùa mưa, giày cần được để khô hoàn toàn mới sử dụng tiếp. 
+                Tránh sử dụng giày trong tình trạng ẩm ướt làm ảnh hưởng đến Form và độ ôm của giày.
+            </p>
+            <div>
+                <iframe style="width: 560px; height: 315px;margin: 20px 270px;" src="https://www.youtube.com/embed/2f-4HaWG4bE" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
     </section>
 
     <section id="about" class="hideable-section">
@@ -44,17 +222,155 @@
     </section>
 
     <section id="link1" class="hideable-section">
-        <div>Link1 content</div>
+        <h3 style="text-align: center;">Giày Bóng Đá Nike</h3>
+        <hr>
+        <div class="flex-container">
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/nike1.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Nike</h5>
+                <p>800.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/nike2.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Nike</h5>
+                <p>900.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/nike3.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Nike</h5>
+                <p>950.000VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/nike4.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Nike</h5>
+                <p>800.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+        </div>
     </section>
 
     <section id="link2" class="hideable-section">
-        <div>Link2 content</div>
+        <h3 style="text-align: center;">Giày Bóng Đá Adidas</h3>
+        <hr>
+        <div class="flex-container">
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/adidas1.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Adidas</h5>
+                <p>750.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/adidas2.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Adidas</h5>
+                <p>800.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/adidas3.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Adidas</h5>
+                <p>900.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/adidas4.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Adidas</h5>
+                <p>700.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+        </div>
     </section>
 
     <section id="link3" class="hideable-section">
-        <div>Link3 content</div>
+        <h3 style="text-align: center;">Giày Bóng Đá Puma</h3>
+        <hr>
+        <div class="flex-container">
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/puma4.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Puma</h5>
+                <p>750.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/puma1.png" alt="">
+                </div>
+                <h5>Giày Bóng Đá Puma</h5>
+                <p>650.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/puma2.png" alt="">
+                </div>
+                <h5>Giày Bóng Đá Puma</h5>
+                <p>850.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            <div class="sp">  
+                <div class="sp_sub">
+                    <img src="./img/puma3.jpg" alt="">
+                </div>
+                <h5>Giày Bóng Đá Puma</h5>
+                <p>800.000 VND</p>
+                <a href="#">
+                    <button>Mua Ngay</button>
+                </a>
+            </div>
+            
+        </div>
     </section>
-
+    <footer>
+        <div class="ft">
+            <p>copyright@minhdat2020</p>
+        </div>
+    </footer>
+    <a id="nutbacktotop" href="javascript:void(0)" title="Back to Top">
+        <img src="img/backtotop.png" alt="Quay lại đầu trang" style="width: 45px;height: 45px;" />
+    </a>
+    <script src="./js/main.js"></script>
     <script>
         $(function() {
             $('nav ul li a').click(function() {
@@ -70,6 +386,7 @@
             });
         });
     </script>
+
 </body>
 
 </html>
